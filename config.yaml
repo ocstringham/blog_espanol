@@ -1,8 +1,9 @@
-baseurl: https://example.com
-languageCode: en
+# baseurl: https://example.com
+languageCode: es
 title: El blog de Oliver en Español
 theme: charaka-hugo-theme
 copyright: 'Este sitio web utiliza el tema Hugo"Charaka" diseñado por &copy; <a href="https://github.com/natarajmb">Nataraj Basappa</a> 2025'
+publishDir: "docs"
 disqusShortname: ''
 relativeURLs: yes
 preserveTaxonomyNames: yes
