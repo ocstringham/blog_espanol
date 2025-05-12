@@ -24,6 +24,4 @@ params:
     - fa_icon: fas fa-globe
       url: https://oliverstringham.com
     - fa_icon: fab fa-github
-      url: https://github.com/ocstringham/
-    - fa_icon: fab fa-linkedin-in
-      url: https://www.linkedin.com/in/oliver-c-stringham/
+      url: https://github.com/ocstringham/blog_espanol
