@@ -1,0 +1,28 @@
+baseurl: https://example.com
+languageCode: en
+title: El blog de Oliver en Español
+theme: charaka-hugo-theme
+copyright: 'Este sitio web utiliza el tema Hugo"Charaka" diseñado por &copy; <a href="https://github.com/natarajmb">Nataraj Basappa</a> 2025'
+disqusShortname: ''
+relativeURLs: yes
+preserveTaxonomyNames: yes
+services:
+  googleAnalytics:
+    googleAnalytics: ''
+author:
+  homepage: https://oliverstringham.com
+  name: Oliver C. Stringham
+params:
+  highlight:
+    style: zenburn
+  share:
+    enabled: 'true'
+  social:
+    - fa_icon: fas fa-info
+      url: about
+    - fa_icon: fas fa-globe
+      url: https://oliverstringham.com
+    - fa_icon: fab fa-github
+      url: https://github.com/ocstringham/
+    - fa_icon: fab fa-linkedin-in
+      url: https://www.linkedin.com/in/oliver-c-stringham/
