@@ -8,5 +8,5 @@ Este sitio web es un blog escrito por yo, Oliver Stringham. Quiero practicar esp
 
 Espero que haya muchos errores y eso es (parte de) el propósito. Si quieres decirme cuando estoy equivocado, por favor envíame un correo electrónico at [oliverstringham@gmail.com](mailto:oliverstringham@gmail.com).
 
-Feliz práctica 🙂
+Feliz práctica 🙂\n
 -Oliver
