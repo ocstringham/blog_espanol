@@ -16,33 +16,5 @@
       <guid>/posts/2025-05-12-first-post/</guid>
       <description>&lt;p&gt;Esta entrada hará sencilla. Como el dicho perfección es el enemigo de progreso - aquí es un sencilla lista de palabras que aprendí por hacer este sitio web:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;el blog (blog),&lt;/li&gt;&#xA;&lt;li&gt;sitio web (web site),&lt;/li&gt;&#xA;&lt;li&gt;página (page),&lt;/li&gt;&#xA;&lt;li&gt;actualizar (to update),&lt;/li&gt;&#xA;&lt;li&gt;entrada (post - like a blog post, among other things),&lt;/li&gt;&#xA;&lt;li&gt;resolver (figure out)&lt;/li&gt;&#xA;&lt;li&gt;diseñar (to design)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;También, aprendí que no puedes tener ñ (o otra caracteres especiales) en el nombre de un repositorio de GitHub. Eso pasó cuando se llamé el repositorio &amp;ldquo;blog_español&amp;rdquo; pero no funciona y usó - en lugar de ñ entonces el nombre fue &amp;ldquo;blog_espa-ol&amp;rdquo;. Y es por eso el repositorio de este sitio web  se llama &amp;ldquo;blog_espanol&amp;rdquo;, sin eñe.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>/posts/old/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/posts/old/migrate-from-jekyll/</guid>
-      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ images/&#xA;        logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ static/&#xA;        ▾ images/&#xA;            logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/posts/old/2020-12-01-r-rmarkdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>/posts/old/2020-12-01-r-rmarkdown/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;R Markdown&lt;/h1&gt;&#xA;&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;&#xA;&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&#xA;##      speed           dist       &#xA;##  Min.   : 4.0   Min.   :  2.00  &#xA;##  1st Qu.:12.0   1st Qu.: 26.00  &#xA;##  Median :15.0   Median : 36.00  &#xA;##  Mean   :15.4   Mean   : 42.98  &#xA;##  3rd Qu.:19.0   3rd Qu.: 56.00  &#xA;##  Max.   :25.0   Max.   :120.00&#xA;fit &amp;lt;- lm(dist ~ speed, data = cars)&#xA;fit&#xA;## &#xA;## Call:&#xA;## lm(formula = dist ~ speed, data = cars)&#xA;## &#xA;## Coefficients:&#xA;## (Intercept)        speed  &#xA;##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;Including Plots&lt;/h1&gt;&#xA;&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>/posts/old/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>/posts/old/goisforlovers/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in go templates.&lt;/p&gt;&#xA;&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;go docs&lt;/a&gt;&#xA;provide more details.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>/posts/old/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>/posts/old/hugoisforlovers/</guid>
-      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the&#xA;appropriate version for your os and architecture.&lt;/p&gt;&#xA;&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;&#xA;&lt;p&gt;More complete instructions are available at &lt;a href=&#34;./overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;&#xA;&lt;p&gt;Hugo has its own example site which happens to also be the documentation site&#xA;you are reading right now.&lt;/p&gt;&#xA;&lt;p&gt;Follow the following steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Go into the repo&lt;/li&gt;&#xA;&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;&#xA;&lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
