@@ -1,14 +1,17 @@
 ---
 author: Oliver Stringham
 date: "2025-05-12"
+title: Primera entrada de blog
 linktitle: Primera entrada de blog
-menu:
-  main:
-    parent: tutorials
+menu: main
+tags:
+- vocabulario
+# menu:
+#   main:
+#     parent: tutorials
 # next: /tutorials/github-pages-blog
 # prev: /tutorials/automated-deployments
-title: Primera entrada de blog
-weight: 10
+# weight: 10
 ---
 
 

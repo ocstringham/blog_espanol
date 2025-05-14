@@ -11,9 +11,9 @@
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primera entrada de blog</title>
-      <link>/posts/2025-05-12-first-post/</link>
+      <link>/posts/2025-05-12-primera-entrada/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-05-12-first-post/</guid>
+      <guid>/posts/2025-05-12-primera-entrada/</guid>
       <description>&lt;p&gt;Esta entrada hará sencilla. Como el dicho perfección es el enemigo de progreso - aquí es un sencilla lista de palabras que aprendí por hacer este sitio web:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;el blog (blog),&lt;/li&gt;&#xA;&lt;li&gt;sitio web (web site),&lt;/li&gt;&#xA;&lt;li&gt;página (page),&lt;/li&gt;&#xA;&lt;li&gt;actualizar (to update),&lt;/li&gt;&#xA;&lt;li&gt;entrada (post - like a blog post, among other things),&lt;/li&gt;&#xA;&lt;li&gt;resolver (figure out)&lt;/li&gt;&#xA;&lt;li&gt;diseñar (to design)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;También, aprendí que no puedes tener ñ (o otra caracteres especiales) en el nombre de un repositorio de GitHub. Eso pasó cuando se llamé el repositorio &amp;ldquo;blog_español&amp;rdquo; pero no funciona y usó - en lugar de ñ entonces el nombre fue &amp;ldquo;blog_espa-ol&amp;rdquo;. Y es por eso el repositorio de este sitio web  se llama &amp;ldquo;blog_espanol&amp;rdquo;, sin eñe.&lt;/p&gt;</description>
     </item>
   </channel>
