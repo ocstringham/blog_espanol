@@ -7,12 +7,26 @@
     <generator>Hugo</generator>
     <language>es</language>
     <copyright>Este sitio web utiliza el tema Hugo&#34;Charaka&#34; diseñado por &amp;copy; &lt;a href=&#34;https://github.com/natarajmb&#34;&gt;Nataraj Basappa&lt;/a&gt; 2025</copyright>
-    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cocinar</title>
+      <link>/tags/cocinar/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/cocinar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comida</title>
+      <link>/tags/comida/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/comida/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Vocabulario</title>
       <link>/tags/vocabulario/</link>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
       <guid>/tags/vocabulario/</guid>
       <description></description>
     </item>
